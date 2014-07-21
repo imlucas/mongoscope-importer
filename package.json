@@ -13,12 +13,15 @@
     "mongoscope",
     "mongodb.js"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
+    "JSONStream": "^0.8.3",
     "csv-streamify": "^1.0.0",
-    "event-source-emitter": "0.0.2",
+    "debug": "^1.0.4",
     "event-stream": "^3.1.5",
-    "request": "^2.36.0",
-    "JSONStream": "^0.8.3"
+    "request": "^2.36.0"
   },
   "devDependencies": {
     "mocha": "^1.20.1",
