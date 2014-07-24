@@ -3,7 +3,7 @@
 var importer = require('../'),
   fs = require('fs'),
   MongoClient = require('mongodb').MongoClient,
-  datasets = require('../mongodb-datasets'),
+  datasets = require('mongodb-datasets'),
   yargs = require('yargs')
     .usage('Mongoscope-Importer version 0.0.0')
     .example('$0 schema.json -n 10 -c docs', '')
