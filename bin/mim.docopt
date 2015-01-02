@@ -1,0 +1,16 @@
+mim
+
+The monogoscope-importer.
+
+Usage:
+  mim <ns> [<url> <jsonpath>]
+  mim -h | --help | --version
+
+Examples:
+  mim dyno.results < dyno-source.json
+
+Options:
+  -h --help     Show this screen.
+  --version     Show version.
+
+
